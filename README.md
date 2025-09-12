@@ -26,6 +26,8 @@ Analisar o programa e tornar a sua execução **assíncrona**.
   - 🛠️ **Descrição das modificações realizadas** para tornar o programa assíncrono;  
   - 📊 Observações sobre os **impactos observados no tempo de execução**.  
 
+### Modificações realizadas para tornar o programa assíncrono:
+A principal modificação foi a utilização dos métodos Task.Run e Task.WhenAll fazendo com que os arquivos de cada UF fossem gerados paralelamente. Assim, agilizando o processo, porque não é necessário esperar o término de criação de um arquivo para gerar outro. Dessa forma o tempo de execução do programa acaba diminuindo drasticamente.
 ### 🌐 Repositório
 [https://github.com/profvinicius84/AsyncLab](https://github.com/profvinicius84/AsyncLab)
 
